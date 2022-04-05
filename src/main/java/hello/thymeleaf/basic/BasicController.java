@@ -96,6 +96,12 @@ public class BasicController {
         return "basic/operation";
     }
 
+    // 속상 값 설정
+    @GetMapping("/attribute")
+    public String attribute() {
+        return "basic/attribute";
+    }
+
     @Data
     static class User {
         private String username;
